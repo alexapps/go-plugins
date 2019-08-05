@@ -1,8 +1,5 @@
 module github.com/alexapps/go-plugins
 
-replace github.com/micro/micro => github.com/alexaps/micro v1.8.2
-replace github.com/micro/go-micro => github.com/alexaps/go-micro v1.8.4
-
 
 require (
 	cloud.google.com/go v0.43.0
@@ -169,6 +166,8 @@ exclude (
 )
 
 replace (
+    github.com/micro/micro => github.com/alexaps/micro v1.8.3
+    github.com/micro/go-micro => github.com/alexaps/go-micro v1.8.5
 	github.com/golang/lint => github.com/golang/lint v0.0.0-20190227174305-8f45f776aaf1
 	github.com/hashicorp/vault/api => github.com/hashicorp/vault/sdk v1.0.2
 	github.com/hashicorp/vault/sdk => github.com/hashicorp/vault/sdk v0.1.8
