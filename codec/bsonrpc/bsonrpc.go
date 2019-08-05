@@ -7,7 +7,7 @@ import (
 	"io"
 
 	"github.com/asim/go-bson"
-	"github.com/alexapps/go-micro/codec"
+	"github.com/micro/go-micro/codec"
 )
 
 type bsonCodec struct {

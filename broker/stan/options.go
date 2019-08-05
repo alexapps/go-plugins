@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/alexapps/go-micro/broker"
-	"github.com/alexapps/go-micro/server"
+	"github.com/micro/go-micro/broker"
+	"github.com/micro/go-micro/server"
 	stan "github.com/nats-io/stan.go"
 )
 

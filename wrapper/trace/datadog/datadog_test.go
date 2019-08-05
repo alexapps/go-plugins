@@ -9,16 +9,16 @@ import (
 
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 
-	"github.com/alexapps/go-micro/client"
-	"github.com/alexapps/go-micro/client/selector"
-	microerr "github.com/alexapps/go-micro/errors"
-	"github.com/alexapps/go-micro/registry/memory"
-	"github.com/alexapps/go-micro/server"
+	"github.com/micro/go-micro/client"
+	"github.com/micro/go-micro/client/selector"
+	microerr "github.com/micro/go-micro/errors"
+	"github.com/micro/go-micro/registry/memory"
+	"github.com/micro/go-micro/server"
 	"github.com/stretchr/testify/assert"
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/mocktracer"
 
-	cli "github.com/alexapps/go-micro/client"
-	srv "github.com/alexapps/go-micro/server"
+	cli "github.com/micro/go-micro/client"
+	srv "github.com/micro/go-micro/server"
 )
 
 type Test interface {

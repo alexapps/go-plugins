@@ -6,10 +6,10 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/alexapps/go-micro/client"
-	"github.com/alexapps/go-micro/metadata"
-	"github.com/alexapps/go-micro/server"
-	"github.com/alexapps/go-micro/util/log"
+	"github.com/micro/go-micro/client"
+	"github.com/micro/go-micro/metadata"
+	"github.com/micro/go-micro/server"
+	"github.com/micro/go-micro/util/log"
 
 	"go.opencensus.io/trace"
 	"go.opencensus.io/trace/propagation"

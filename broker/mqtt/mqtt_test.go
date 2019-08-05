@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/eclipse/paho.mqtt.golang"
-	"github.com/alexapps/go-micro/broker"
+	"github.com/micro/go-micro/broker"
 )
 
 func TestMQTTMock(t *testing.T) {

@@ -14,15 +14,15 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/alexapps/go-micro/broker"
-	"github.com/alexapps/go-micro/config/cmd"
-	merr "github.com/alexapps/go-micro/errors"
-	"github.com/alexapps/go-micro/registry"
-	"github.com/alexapps/go-micro/registry/cache"
-	maddr "github.com/alexapps/go-micro/util/addr"
-	"github.com/alexapps/go-micro/util/log"
-	mnet "github.com/alexapps/go-micro/util/net"
-	mls "github.com/alexapps/go-micro/util/tls"
+	"github.com/micro/go-micro/broker"
+	"github.com/micro/go-micro/config/cmd"
+	merr "github.com/micro/go-micro/errors"
+	"github.com/micro/go-micro/registry"
+	"github.com/micro/go-micro/registry/cache"
+	maddr "github.com/micro/go-micro/util/addr"
+	"github.com/micro/go-micro/util/log"
+	mnet "github.com/micro/go-micro/util/net"
+	mls "github.com/micro/go-micro/util/tls"
 	proto "github.com/micro/go-plugins/broker/grpc/proto"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
@@ -61,7 +61,7 @@ type grpcEvent struct {
 }
 
 var (
-	registryKey = "github.com/alexapps/go-micro/registry"
+	registryKey = "github.com/micro/go-micro/registry"
 
 	broadcastVersion = "ff.grpc.broadcast"
 	registerTTL      = time.Minute

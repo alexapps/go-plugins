@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/alexapps/go-micro/broker"
-	"github.com/alexapps/go-micro/registry/memory"
+	"github.com/micro/go-micro/broker"
+	"github.com/micro/go-micro/registry/memory"
 )
 
 func sub(be *testing.B, c int) {

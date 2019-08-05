@@ -3,7 +3,7 @@ package multi
 import (
 	"context"
 
-	"github.com/alexapps/go-micro/registry"
+	"github.com/micro/go-micro/registry"
 )
 
 type writeKey struct{}

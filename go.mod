@@ -1,4 +1,7 @@
 module github.com/alexapps/go-plugins
+replace github.com/micro/micro => github.com/alexaps/micro
+replace github.com/micro/go-micro => github.com/alexaps/go-micro 
+
 
 require (
 	cloud.google.com/go v0.43.0

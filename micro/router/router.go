@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/micro/cli"
-	"github.com/alexapps/go-micro/config"
-	"github.com/alexapps/go-micro/config/source"
-	"github.com/alexapps/go-micro/config/source/file"
+	"github.com/micro/go-micro/config"
+	"github.com/micro/go-micro/config/source"
+	"github.com/micro/go-micro/config/source/file"
 	"github.com/micro/micro/plugin"
 	"github.com/sirupsen/logrus"
 )

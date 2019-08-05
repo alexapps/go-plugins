@@ -8,9 +8,9 @@ package main
 
 import (
     "github.com/micro/go-plugins/codec/msgpackrpc"
-    "github.com/alexapps/go-micro"
-    "github.com/alexapps/go-micro/client"
-    "github.com/alexapps/go-micro/server"
+    "github.com/micro/go-micro"
+    "github.com/micro/go-micro/client"
+    "github.com/micro/go-micro/server"
 )
 
 func main() {

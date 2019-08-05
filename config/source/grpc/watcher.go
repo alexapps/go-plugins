@@ -1,7 +1,7 @@
 package grpc
 
 import (
-	"github.com/alexapps/go-micro/config/source"
+	"github.com/micro/go-micro/config/source"
 	proto "github.com/micro/go-plugins/config/source/grpc/proto"
 )
 

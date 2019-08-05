@@ -4,9 +4,9 @@ import (
 	"net"
 	"net/http"
 
-	"github.com/alexapps/go-micro/config"
-	"github.com/alexapps/go-micro/config/source/file"
-	"github.com/alexapps/go-micro/util/log"
+	"github.com/micro/go-micro/config"
+	"github.com/micro/go-micro/config/source/file"
+	"github.com/micro/go-micro/util/log"
 	"github.com/micro/go-plugins/micro/router"
 )
 

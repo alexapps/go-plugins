@@ -2,7 +2,7 @@ package vault
 
 import (
 	"fmt"
-	"github.com/alexapps/go-micro/config/source"
+	"github.com/micro/go-micro/config/source"
 	"net"
 	"net/url"
 	"strings"

@@ -6,10 +6,10 @@ import (
 
 	"context"
 
-	"github.com/alexapps/go-micro/client"
-	"github.com/alexapps/go-micro/metadata"
-	"github.com/alexapps/go-micro/registry"
-	"github.com/alexapps/go-micro/server"
+	"github.com/micro/go-micro/client"
+	"github.com/micro/go-micro/metadata"
+	"github.com/micro/go-micro/registry"
+	"github.com/micro/go-micro/server"
 	opentracing "github.com/opentracing/opentracing-go"
 )
 

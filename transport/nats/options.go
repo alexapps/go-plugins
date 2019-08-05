@@ -3,7 +3,7 @@ package nats
 import (
 	"context"
 
-	"github.com/alexapps/go-micro/transport"
+	"github.com/micro/go-micro/transport"
 	"github.com/nats-io/nats.go"
 )
 

@@ -3,7 +3,7 @@ package snssqs
 import (
 	"context"
 
-	"github.com/alexapps/go-micro/broker"
+	"github.com/micro/go-micro/broker"
 )
 
 // setSubscribeOption returns a function to setup a context with given value

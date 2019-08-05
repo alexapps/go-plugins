@@ -4,10 +4,10 @@ package shard
 import (
 	"hash/crc32"
 
-	"github.com/alexapps/go-micro/client"
-	"github.com/alexapps/go-micro/client/selector"
-	"github.com/alexapps/go-micro/metadata"
-	"github.com/alexapps/go-micro/registry"
+	"github.com/micro/go-micro/client"
+	"github.com/micro/go-micro/client/selector"
+	"github.com/micro/go-micro/metadata"
+	"github.com/micro/go-micro/registry"
 
 	"context"
 )

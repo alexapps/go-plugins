@@ -10,8 +10,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/alexapps/go-micro/broker"
-	"github.com/alexapps/go-micro/config/cmd"
+	"github.com/micro/go-micro/broker"
+	"github.com/micro/go-micro/config/cmd"
 	"github.com/streadway/amqp"
 	"gocloud.dev/gcp"
 	"gocloud.dev/pubsub"

@@ -9,7 +9,7 @@ to create a HTTP Server that could potentially be used for REST based API servic
 import (
 	"net/http"
 
-	"github.com/alexapps/go-micro/server"
+	"github.com/micro/go-micro/server"
 	httpServer "github.com/micro/go-plugins/server/http"
 )
 
@@ -37,8 +37,8 @@ Or as part of a service
 import (
 	"net/http"
 
-	"github.com/alexapps/go-micro"
-	"github.com/alexapps/go-micro/server"
+	"github.com/micro/go-micro"
+	"github.com/micro/go-micro/server"
 	httpServer "github.com/micro/go-plugins/server/http"
 )
 

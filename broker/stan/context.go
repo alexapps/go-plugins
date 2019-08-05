@@ -3,8 +3,8 @@ package stan
 import (
 	"context"
 
-	"github.com/alexapps/go-micro/broker"
-	"github.com/alexapps/go-micro/server"
+	"github.com/micro/go-micro/broker"
+	"github.com/micro/go-micro/server"
 )
 
 // setSubscribeOption returns a function to setup a context with given value

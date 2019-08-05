@@ -11,9 +11,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/alexapps/go-micro"
-	"github.com/alexapps/go-micro/errors"
-	"github.com/alexapps/go-micro/server"
+	"github.com/micro/go-micro"
+	"github.com/micro/go-micro/errors"
+	"github.com/micro/go-micro/server"
 )
 
 // Router will proxy rpc requests as http POST requests. It is a server.Router

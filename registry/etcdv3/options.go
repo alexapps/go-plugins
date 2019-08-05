@@ -3,7 +3,7 @@ package etcdv3
 import (
 	"context"
 
-	"github.com/alexapps/go-micro/registry"
+	"github.com/micro/go-micro/registry"
 )
 
 type authKey struct{}

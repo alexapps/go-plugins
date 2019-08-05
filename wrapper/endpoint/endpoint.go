@@ -2,8 +2,8 @@
 package endpoint
 
 import (
-	"github.com/alexapps/go-micro/client"
-	"github.com/alexapps/go-micro/server"
+	"github.com/micro/go-micro/client"
+	"github.com/micro/go-micro/server"
 
 	"context"
 )

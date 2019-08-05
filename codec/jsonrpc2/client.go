@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"sync"
 
-	"github.com/alexapps/go-micro/codec"
+	"github.com/micro/go-micro/codec"
 )
 
 const seqNotify = math.MaxUint64
