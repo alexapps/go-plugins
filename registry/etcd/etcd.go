@@ -14,8 +14,8 @@ import (
 	"time"
 
 	etcd "github.com/coreos/etcd/client"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/registry"
+	"github.com/alexapps/go-micro/config/cmd"
+	"github.com/alexapps/go-micro/registry"
 )
 
 var (

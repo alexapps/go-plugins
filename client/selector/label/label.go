@@ -5,9 +5,9 @@ import (
 	"context"
 	"sync"
 
-	"github.com/micro/go-micro/client/selector"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/registry"
+	"github.com/alexapps/go-micro/client/selector"
+	"github.com/alexapps/go-micro/config/cmd"
+	"github.com/alexapps/go-micro/registry"
 )
 
 /*

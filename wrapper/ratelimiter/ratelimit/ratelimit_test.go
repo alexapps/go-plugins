@@ -7,11 +7,11 @@ import (
 
 	"context"
 	"github.com/juju/ratelimit"
-	"github.com/micro/go-micro/client"
-	"github.com/micro/go-micro/client/selector"
-	"github.com/micro/go-micro/errors"
-	"github.com/micro/go-micro/registry/memory"
-	"github.com/micro/go-micro/server"
+	"github.com/alexapps/go-micro/client"
+	"github.com/alexapps/go-micro/client/selector"
+	"github.com/alexapps/go-micro/errors"
+	"github.com/alexapps/go-micro/registry/memory"
+	"github.com/alexapps/go-micro/server"
 )
 
 type testHandler struct{}

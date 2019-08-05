@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/micro/go-micro/config"
+	"github.com/alexapps/go-micro/config"
 )
 
 func TestGetClient(t *testing.T) {

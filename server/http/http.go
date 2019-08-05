@@ -10,14 +10,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/codec"
-	"github.com/micro/go-micro/codec/jsonrpc"
-	"github.com/micro/go-micro/codec/protorpc"
-	"github.com/micro/go-micro/config/cmd"
-	"github.com/micro/go-micro/registry"
-	"github.com/micro/go-micro/server"
-	"github.com/micro/go-micro/util/log"
+	"github.com/alexapps/go-micro/broker"
+	"github.com/alexapps/go-micro/codec"
+	"github.com/alexapps/go-micro/codec/jsonrpc"
+	"github.com/alexapps/go-micro/codec/protorpc"
+	"github.com/alexapps/go-micro/config/cmd"
+	"github.com/alexapps/go-micro/registry"
+	"github.com/alexapps/go-micro/server"
+	"github.com/alexapps/go-micro/util/log"
 )
 
 var (

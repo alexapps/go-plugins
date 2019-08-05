@@ -5,7 +5,7 @@ import (
 	"sync"
 
 	etcd "github.com/coreos/etcd/client"
-	"github.com/micro/go-micro/registry"
+	"github.com/alexapps/go-micro/registry"
 )
 
 type etcdWatcher struct {

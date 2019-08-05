@@ -1,4 +1,4 @@
-module github.com/micro/go-plugins
+module github.com/alexapps/go-plugins
 
 require (
 	cloud.google.com/go v0.43.0
@@ -76,7 +76,7 @@ require (
 	github.com/lucas-clemente/quic-go v0.11.2 // indirect
 	github.com/marten-seemann/qtls v0.3.2 // indirect
 	github.com/micro/cli v0.2.0
-	github.com/micro/go-micro v1.8.0
+	github.com/alexapps/go-micro v1.8.0
 	github.com/micro/micro v1.8.0
 	github.com/minio/highwayhash v1.0.0
 	github.com/mitchellh/hashstructure v1.0.0

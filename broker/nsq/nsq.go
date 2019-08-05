@@ -8,9 +8,9 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"github.com/micro/go-micro/broker"
-	"github.com/micro/go-micro/codec/json"
-	"github.com/micro/go-micro/config/cmd"
+	"github.com/alexapps/go-micro/broker"
+	"github.com/alexapps/go-micro/codec/json"
+	"github.com/alexapps/go-micro/config/cmd"
 	"github.com/nsqio/go-nsq"
 )
 
